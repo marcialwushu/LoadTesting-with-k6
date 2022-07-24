@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoadTesting.Tests", "LoadTe
 		stress_test.js = stress_test.js
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadTesting.Api", "LoadTesting.Api\LoadTesting.Api.csproj", "{016875CB-E812-4EAD-814E-207C98534216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadTesting.Api", "LoadTesting.Api\LoadTesting.Api.csproj", "{016875CB-E812-4EAD-814E-207C98534216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadTesting.Tests", "LoadTesting.Tests\LoadTesting.Tests.csproj", "{87A95C30-4933-4566-8AF5-029502E7121C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +27,17 @@ Global
 		{016875CB-E812-4EAD-814E-207C98534216}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{016875CB-E812-4EAD-814E-207C98534216}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{016875CB-E812-4EAD-814E-207C98534216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A95C30-4933-4566-8AF5-029502E7121C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A95C30-4933-4566-8AF5-029502E7121C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A95C30-4933-4566-8AF5-029502E7121C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A95C30-4933-4566-8AF5-029502E7121C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{016875CB-E812-4EAD-814E-207C98534216} = {9EB1F629-54C8-4E76-9569-40CE74800E9C}
+		{87A95C30-4933-4566-8AF5-029502E7121C} = {681E0C09-9291-4414-AA39-1FED8BE773DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66BB1F71-73A0-4FF8-8CB5-4038FFD94EC2}
